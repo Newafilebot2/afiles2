@@ -90,7 +90,7 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton("Join Channel 1", url='https://t.me/quality_ka_study_material'),
                     InlineKeyboardButton("Join Channel 2", url='https://t.me/+MrdtMZ3Yrrs2M2Rl'),
-                    InlineKeyboardButton("🤖 MORE", url='https://t.me/bestbotstg')
+                    InlineKeyboardButton("🤖 MORE", url='https://t.me/iadulthub')
                 ]
             ]
         )

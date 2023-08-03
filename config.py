@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Hello there! \n\nPlease do not send me any direct message as I can only send you files once you click on any link.\n\nJoin @premium_c00ntent for more 💦💦💦  "
+USER_REPLY_TEXT = "Hello there! \n\nPlease do not send me any direct message as I can only send you files once you click on any link.\n\nJoin @quality_ka_study_material for more 💦💦💦  "
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1969177696)

@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6514427696:AAHLiT6eZGKkeQtTROqdv3TJgW6GGmv0v2g")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6578974263:AAGAXkdt5oulpXFqJtzmaTMsQx-6OWY2bvE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25354498"))
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "25354498"))
 API_HASH = os.environ.get("API_HASH", "1cdcf1a33fc5108fa3ca151480eece50")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001952793463"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001865324336"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1969177696"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1163343128"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -32,12 +32,12 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://od3brs9x:0oeTY8cRWnClU8os
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001746977404"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001192753359"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "👋 Hello {first}!\n\n Welcome to the File sender bot!🌟")
+START_MSG = os.environ.get("START_MESSAGE", "👋 Hello {first}!\n\n Welcome to the zEdFile sender bot!🌟")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,10 +58,10 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "Hello there! \n\nPlease do not send me any direct message as I can only send you files once you click on any link.\n\nJoin @quality_ka_study_material for more 💦💦💦  "
+USER_REPLY_TEXT = "Hello there! \n\nPlease join @Hackinsider for links and @zEdHacKs_Network for more courses"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1969177696)
+ADMINS.append(1163343128)
 
 
 LOG_FILE_NAME = "filesharingbot.txt"
